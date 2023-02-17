@@ -59,11 +59,14 @@
                     <td>
 
                         <div class = "row">
+
                             <div class = "col-Lg-3">
                                 <a th:href = "@{/students/edit/{studentId} (studentId=${student.studentId})}" class = "btn btn-primary btn-sm mb-3"> Update Student </a>
-                            </div>
-                        </div>
 
+                                <a th:href = "@{/students/delete/{studentId} (studentId=${student.studentId})}"  class="btn btn-danger btn-sm mb-3"> Delete Student </a>
+                            </div>
+
+                        </div>
 
                     </td>
                 </tr>

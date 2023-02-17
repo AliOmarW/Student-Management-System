@@ -8,10 +8,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentmanagementsystemApplication implements CommandLineRunner {
+public class StudentManagementSystemApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentmanagementsystemApplication.class, args);
+		SpringApplication.run(StudentManagementSystemApplication.class, args);
 	}
 
 	@Autowired
